@@ -11,7 +11,7 @@ int main() {
 	int last_zero = -1;
 	for (int i = 0; i < n; i++) {
 		cin >> a[i];
-		// save the position of last occurrence of zero within the sequence
+		// save the position of the last occurrence of zero within the sequence
 		if (a[i] == 0) {
 			last_zero = i;
 		}
