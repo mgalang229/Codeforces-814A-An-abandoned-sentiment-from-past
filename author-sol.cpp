@@ -22,7 +22,7 @@ int main() {
 	}
 	if (k > 1) {
 		// if 'k' is greater than 1, then automatically the answer is Yes, because
-		// we can simply swap two elements and destroy the propert of increasing order
+		// we can simply swap two elements and destroy the property of increasing order
 		cout << "Yes";
 	} else {
 		// otherwise, place the single replacement element within the sequence
